@@ -2,7 +2,7 @@ data:
   num_classes: 19
   dataset: 'cityscapes'
   batch_size: 8
-  data_dir: '/home/apex/chendixi/Experiment/data/CityScapes'
+  data_dir: '/kaggle/input/cityscapes/Cityspaces'
 model:
   backbone: 'mobilenetv2'
   model: 'deeplabv3plus'
